@@ -5,7 +5,7 @@
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle hidden" />
       <div class="drawer-content flex flex-col relative font-bold">
         <div
-          class="hidden xl:block w-[25%] h-[107px] absolute top-0 left-0 rounded-r-full bg-black text-right text-white pr-[20px]"
+          class="hidden xl:block w-[24%] h-[107px] absolute top-0 left-0 rounded-r-full bg-black text-right text-white pr-[20px]"
         >
           <h1 class="text-[76px] mt-[0px] uppercase">
             <a href="/">Logo</a>

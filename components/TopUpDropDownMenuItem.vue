@@ -5,50 +5,60 @@
     class="uppercase dropdown-content menu bg-base-100/50 backdrop-blur rounded-box z-1 w-52 p-2 shadow-sm"
   >
     <li class="bg-base-100/0.5 backdrop-blur rounded-full mb-1">
-      <a class="rounded-full"> <span class="menu-icon icon-ball" /> BÓNG ĐÁ</a>
+      <a class="rounded-full"> <span class="menu-icon icon-coin-2" /> 20.000</a>
     </li>
     <li class="bg-base-100/0.5 backdrop-blur rounded-full mb-1">
-      <a class="rounded-full"> <span class="menu-icon icon-dua-bi" /> Đua bi</a>
+      <a class="rounded-full"> <span class="menu-icon icon-coin-3" /> 20.000</a>
     </li>
-    <li class="bg-base-100/0.5 backdrop-blur rounded-full mb-1">
+    <li class="bg-base-100/0.5 backdrop-blur rounded-full mb-1 mx-auto">
       <a class="rounded-full">
-        <span class="menu-icon icon-basket-ball" /> BÓNG Rổ</a
+        <div class="rounded-full btn-top-up">
+          <svg
+            fill="#000000"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                fill-rule="evenodd"
+                d="M11.75 4.5a.75.75 0 01.75.75V11h5.75a.75.75 0 010 1.5H12.5v5.75a.75.75 0 01-1.5 0V12.5H5.25a.75.75 0 010-1.5H11V5.25a.75.75 0 01.75-.75z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        Nạp thêm</a
       >
-    </li>
-    <li class="bg-base-100/0.5 backdrop-blur rounded-full mb-1">
-      <a class="rounded-full">
-        <span class="menu-icon icon-esport" />E-SPORTS</a
-      >
-    </li>
-    <li class="bg-base-100/0.5 backdrop-blur rounded-full mb-1">
-      <a class="rounded-full"> <span class="menu-icon icon-casino" />Casino</a>
     </li>
   </ul>
 </template>
 
 <style>
-.menu-icon {
+.btn-top-up {
+  background: linear-gradient(180deg, #f8e889 0%, #e4b764 100%);
+}
+
+#top-up-drop-down .menu-icon {
   display: block;
-  width: 30px;
-  height: 30px;
-  background: url("~/assets/menu-icon.png");
+  width: 32px;
+  height: 27px;
+  background: url("~/assets/top-up-badge.png");
   background-position-y: 0;
   background-size: 100%;
 }
 
-.icon-dua-bi {
-  background-position-y: -43px;
+#top-up-drop-down .icon-coin-2 {
+  background-position-y: -21px;
 }
 
-.icon-basket-ball {
-  background-position-y: -86px;
-}
-
-.icon-esport {
-  background-position-y: -129px;
-}
-
-.icon-casino {
-  background-position-y: -172px;
+#top-up-drop-down .icon-coin-3 {
+  background-position-y: -48px;
 }
 </style>
