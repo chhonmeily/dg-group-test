@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   css: ["~/assets/app.css"],
-  compatibilityDate: '2025-05-15',
+  compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
-  modules: ['@nuxt/eslint', '@nuxt/scripts', '@nuxt/image']
-})
+  modules: ["@nuxt/eslint", "@nuxt/scripts", "@nuxt/image"],
+});

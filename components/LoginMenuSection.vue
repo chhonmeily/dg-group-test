@@ -1,16 +1,17 @@
-<script setup>
-function toggleDropdown(e) {
+<script setup lang="ts">
+function toggleDropdown(e: MouseEvent): void {
   e.preventDefault();
-  const dropdown = document.querySelector(".top-up");
-  const swap = document.querySelector(".swap");
-  const isOpen = dropdown.classList.contains("dropdown-open");
+  const dropdown: HTMLElement | null = document.querySelector(".top-up");
+  const swap: HTMLElement | null = document.querySelector(".swap");
+  const isOpen: boolean =
+    dropdown?.classList.contains("dropdown-open") ?? false;
 
   if (isOpen) {
-    dropdown.classList.remove("dropdown-open");
-    swap.classList.remove("swap-active");
+    dropdown?.classList.remove("dropdown-open");
+    swap?.classList.remove("swap-active");
   } else {
-    dropdown.classList.add("dropdown-open");
-    swap.classList.add("swap-active");
+    dropdown?.classList.add("dropdown-open");
+    swap?.classList.add("swap-active");
   }
 }
 </script>
