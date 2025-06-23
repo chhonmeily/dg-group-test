@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import IconPlus from "~/assets/icon-plus.svg";
+</script>
 <template>
   <ul
     id="top-up-drop-down"
@@ -13,7 +16,7 @@
     <li class="bg-base-100/0.5 backdrop-blur rounded-full mb-1 mx-auto">
       <a class="rounded-full">
         <div class="rounded-full btn-top-up">
-          <img src="~/assets/icon-plus.svg" />
+          <IconPlus />
         </div>
         Nạp thêm</a
       >

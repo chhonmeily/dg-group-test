@@ -64,7 +64,7 @@ onMounted(() => {
   >
     <a class="link link-hover flex items-center font-bold"
       >Xem tất cả
-      <img src="~/assets/caret.svg" />
+      <img src="@/assets/caret.svg?url" />
     </a>
   </div>
   <div class="flex items-center relative">
@@ -72,7 +72,7 @@ onMounted(() => {
       aria-label="previous"
       class="btn btn-link btn-previous absolute left-[9.5%] z-1"
     >
-      <img src="~/assets/btn-previous.svg" />
+      <img src="~/assets/btn-previous.svg?url" />
     </button>
     <div id="game-carousel" class="game-container mx-auto">
       <div class="flex items-center gap-4 p-4">
@@ -98,7 +98,7 @@ onMounted(() => {
                 <h3 class="font-bold m-0 p-0 pb-2 uppercase">BLV Noname</h3>
               </div>
               <div class="blink-status mr-[5%] mt-2">
-                <img src="~/assets/blink.svg" width="65" />
+                <img src="~/assets/blink.svg?url" width="65" />
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@ onMounted(() => {
               <button
                 class="btn btn-lg btn-bell rounded-2xl bg-gold border-gold shadow-lg p-2 mr-[5%] mt-2"
               >
-                <img class="mx-auto mb-0 p-0" src="~/assets/bell.svg" />
+                <img class="mx-auto mb-0 p-0" src="~/assets/bell.svg?url" />
                 <span class="text-xs font-bold">Huỷ lịch</span>
               </button>
             </div>
@@ -157,7 +157,10 @@ onMounted(() => {
               <button
                 class="btn btn-lg btn-bell black-gd transparent rounded-2xl shadow-lg p-2 mr-[5%] mt-2"
               >
-                <img class="mx-auto mb-0 p-0" src="~/assets/bell-full.svg" />
+                <img
+                  class="mx-auto mb-0 p-0"
+                  src="~/assets/bell-full.svg?url"
+                />
                 <span class="text-xs font-bold text-gold">Đặt lịch</span>
               </button>
             </div>
@@ -185,7 +188,7 @@ onMounted(() => {
                 <h3 class="font-bold m-0 p-0 pb-2 uppercase">BLV Noname</h3>
               </div>
               <div class="blink-status mr-[5%] mt-2">
-                <img src="~/assets/blink.svg" width="65" />
+                <img src="~/assets/blink.svg?url" width="65" />
               </div>
             </div>
           </div>
@@ -214,7 +217,7 @@ onMounted(() => {
               <button
                 class="btn btn-lg btn-bell rounded-2xl bg-gold border-gold shadow-lg p-2 mr-[5%] mt-2"
               >
-                <img class="mx-auto mb-0 p-0" src="~/assets/bell.svg" />
+                <img class="mx-auto mb-0 p-0" src="~/assets/bell.svg?url" />
                 <span class="text-xs font-bold">Huỷ lịch</span>
               </button>
             </div>
@@ -244,7 +247,10 @@ onMounted(() => {
               <button
                 class="btn btn-lg btn-bell black-gd transparent rounded-2xl shadow-lg p-2 mr-[5%] mt-2"
               >
-                <img class="mx-auto mb-0 p-0" src="~/assets/bell-full.svg" />
+                <img
+                  class="mx-auto mb-0 p-0"
+                  src="~/assets/bell-full.svg?url"
+                />
                 <span class="text-xs font-bold text-gold">Đặt lịch</span>
               </button>
             </div>
@@ -256,7 +262,7 @@ onMounted(() => {
       aria-label="next"
       class="btn btn-link btn-next absolute right-[9.5%] z-1"
     >
-      <img src="~/assets/btn-next.svg" />
+      <img src="~/assets/btn-next.svg?url" />
     </button>
   </div>
 </template>

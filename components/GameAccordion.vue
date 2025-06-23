@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="game-container mx-auto">
+    <div class="game-container mx-auto mt-[40px]">
       <div
         tabindex="0"
         class="collapse collapse-arrow bg-base-100 border-base-300 border"
@@ -31,7 +31,7 @@
                     <h3 class="font-bold m-0 p-0 pb-2 uppercase">BLV Noname</h3>
                   </div>
                   <div class="blink-status mr-[5%] mt-2">
-                    <img src="~/assets/blink.svg" width="65" />
+                    <img src="~/assets/blink.svg?url" width="65" />
                   </div>
                 </div>
               </div>
@@ -60,7 +60,7 @@
                   <button
                     class="btn btn-lg btn-bell rounded-2xl bg-gold border-gold shadow-lg p-2 mr-[5%] mt-2"
                   >
-                    <img class="mx-auto mb-0 p-0" src="~/assets/bell.svg" />
+                    <img class="mx-auto mb-0 p-0" src="~/assets/bell.svg?url" />
                     <span class="text-xs font-bold">Huỷ lịch</span>
                   </button>
                 </div>
@@ -92,7 +92,7 @@
                   >
                     <img
                       class="mx-auto mb-0 p-0"
-                      src="~/assets/bell-full.svg"
+                      src="~/assets/bell-full.svg?url"
                     />
                     <span class="text-xs font-bold text-gold">Đặt lịch</span>
                   </button>
@@ -125,7 +125,7 @@
                   >
                     <img
                       class="mx-auto mb-0 p-0"
-                      src="~/assets/bell-full.svg"
+                      src="~/assets/bell-full.svg?url"
                     />
                     <span class="text-xs font-bold text-gold">Đặt lịch</span>
                   </button>
@@ -158,7 +158,7 @@
                   >
                     <img
                       class="mx-auto mb-0 p-0"
-                      src="~/assets/bell-full.svg"
+                      src="~/assets/bell-full.svg?url"
                     />
                     <span class="text-xs font-bold text-gold">Đặt lịch</span>
                   </button>
@@ -187,7 +187,7 @@
                     <h3 class="font-bold m-0 p-0 pb-2 uppercase">BLV Noname</h3>
                   </div>
                   <div class="blink-status mr-[5%] mt-2">
-                    <img src="~/assets/blink.svg" width="65" />
+                    <img src="~/assets/blink.svg?url" width="65" />
                   </div>
                 </div>
               </div>
@@ -216,7 +216,7 @@
                   <button
                     class="btn btn-lg btn-bell rounded-2xl bg-gold border-gold shadow-lg p-2 mr-[5%] mt-2"
                   >
-                    <img class="mx-auto mb-0 p-0" src="~/assets/bell.svg" />
+                    <img class="mx-auto mb-0 p-0" src="~/assets/bell.svg?url" />
                     <span class="text-xs font-bold">Huỷ lịch</span>
                   </button>
                 </div>
@@ -248,7 +248,7 @@
                   >
                     <img
                       class="mx-auto mb-0 p-0"
-                      src="~/assets/bell-full.svg"
+                      src="~/assets/bell-full.svg?url"
                     />
                     <span class="text-xs font-bold text-gold">Đặt lịch</span>
                   </button>
@@ -281,7 +281,7 @@
                   >
                     <img
                       class="mx-auto mb-0 p-0"
-                      src="~/assets/bell-full.svg"
+                      src="~/assets/bell-full.svg?url"
                     />
                     <span class="text-xs font-bold text-gold">Đặt lịch</span>
                   </button>
@@ -314,7 +314,7 @@
                   >
                     <img
                       class="mx-auto mb-0 p-0"
-                      src="~/assets/bell-full.svg"
+                      src="~/assets/bell-full.svg?url"
                     />
                     <span class="text-xs font-bold text-gold">Đặt lịch</span>
                   </button>

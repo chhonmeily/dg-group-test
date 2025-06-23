@@ -8,5 +8,5 @@ export default defineNuxtConfig({
   css: ["~/assets/app.css"],
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/eslint", "@nuxt/scripts", "@nuxt/image"],
+  modules: ["@nuxt/eslint", "@nuxt/scripts", "@nuxt/image", "nuxt-svgo"],
 });
